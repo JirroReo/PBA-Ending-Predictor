@@ -4,4 +4,6 @@
 This is a python model built with pandas and sklearn that tries to predict the scores of the teams beforehand using stats from past matches.
 Currently using sports-reference.com's API for datasets as I'm still looking for an API/Dataset from the PH Basketball Association, building a dataset of ~350 teams from the API takes about 120 minutes on a 4-threaded CPU.
 
+A .csv of the dataset is included so you won't have to build one from scratch and save up a lot of time, just load the csv using read_csv.
+
 Still a work in progress, contributions are more than welcome.
